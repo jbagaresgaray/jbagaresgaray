@@ -32,6 +32,8 @@ I specialize in FullStack, Web & Mobile App Development. Currently, I am open to
 <a href="https://nodejs.org/en/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" alt="tailwind" width="70" height="40"/> </a> 
 <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
 <a href="https://laravel.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> 
+<a href="https://angular.io/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/240px-Angular_full_color_logo.svg.png" alt="vuejs" width="40" height="40"/> </a> 
+<a href="https://angularjs.org/" target="_blank"> <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="vuejs" width="40" height="40"/> </a> 
 <a href="https://vuejs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> 
 <a href="https://reactnative.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="reactnative" width="40" height="40"/> </a> 
 <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
@@ -39,6 +41,8 @@ I specialize in FullStack, Web & Mobile App Development. Currently, I am open to
 <a href="https://ionicframework.com" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" width="40" height="40"/> </a> 
 <a href="https://www.electronjs.org/" target="_blank"> <img src="https://hackr.io/tutorials/electron/logo-electron.svg?ver=1551354757" alt="ionic" width="40" height="40"/> </a> 
 <a href="https://capacitorjs.com/" target="_blank"> <img src="https://pbs.twimg.com/profile_images/1268235262641004544/OLW1xl7t.png" alt="ionic" width="40" height="40"/> </a> 
+<a href="https://www.mysql.com/" target="_blank"> <img src="https://pngimg.com/uploads/mysql/mysql_PNG23.png" alt="ionic" width="40" height="40"/> </a> 
+<a href="https://mariadb.org/" target="_blank"> <img src="https://media.licdn.com/dms/image/C560BAQGFI7MVRj4nkg/company-logo_200_200/0?e=2159024400&v=beta&t=3YPxD_rrzgAr0gCRRmw8tbq28dYoKNVxuU8sqOZNFbk" alt="ionic" width="40" height="40"/> </a> 
 
 </p>
 
