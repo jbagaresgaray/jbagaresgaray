@@ -1,0 +1,59 @@
+.banner-area {
+  .user-info-area {
+    .banner-left {
+      margin-top: 100px;
+      height: 500px;
+
+      h1 {
+        color: #000;
+        font-size: 36px;
+        font-weight: 100;
+        line-height: 1em;
+        margin-bottom: 40px;
+
+        span {
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-area .fullscreen {
+    height: 700px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-left {
+    text-align: center;
+
+    h1 {
+      font-size: 36px;
+
+      br {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .banner-left h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner-left h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner-left {
+    padding-bottom: 40px;
+  }
+}
