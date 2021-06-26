@@ -1,5 +1,7 @@
 import React from "react";
 
+import tms from "../../../assets/projects/img/tms.png";
+
 export default function ProjectArea() {
   return (
     <section className="project-area section-gap" id="project">
@@ -26,11 +28,7 @@ export default function ProjectArea() {
                 technological.
               </p>
               <a href="http://tms.j3solutions.com.ph/login" target="_blank">
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/tms.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={tms} alt="" />
               </a>
             </div>
           </div>

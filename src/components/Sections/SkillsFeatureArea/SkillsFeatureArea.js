@@ -1,5 +1,24 @@
 import React from "react";
 
+import ioniclogo from "../../../assets/img/ioniclogo.png";
+import reactnative from "../../../assets/img/reactnative.png";
+import react from "../../../assets/img/react.png";
+import AngularJS from "../../../assets/img/angular.svg";
+import stenciljs from "../../../assets/img/stenciljs.png";
+import angular from "../../../assets/img/angular-3.svg";
+import vuejs from "../../../assets/img/vuejs.png";
+import Capacitor from "../../../assets/img/ionic-capacitor.png";
+import Cordova from "../../../assets/img/cordova.png";
+import Electron from "../../../assets/img/electron.png";
+import MEAN from "../../../assets/img/mean.png";
+import nodejs from "../../../assets/img/nodejs.png";
+import nest from "../../../assets/img/nest.png";
+import Laravel from "../../../assets/img/laravel.png";
+import CodeIgniter from "../../../assets/img/codeigniter.png";
+import MongoDB from "../../../assets/img/mongodb.svg";
+import MySQL from "../../../assets/img/mysql.png";
+import MariaDB from "../../../assets/img/mariadb.png";
+
 export default function SkillsFeatureArea() {
   return (
     <section className="feature-area pt-100" id="skills">
@@ -15,142 +34,126 @@ export default function SkillsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img
-                  src="./assets/img/ioniclogo.png"
-                  alt="Ionic Framework"
-                  width="200px"
-                />
+                <img src={ioniclogo} alt="Ionic Framework" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img
-                  src="./assets/img/reactnative.png"
-                  alt="React Native"
-                  width="250px"
-                />
+                <img src={reactnative} alt="React Native" width="250px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/react.png" alt="ReactJS" width="200px" />
+                <img src={react} alt="ReactJS" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/angular.svg" alt="AngularJS" width="200px" />
+                <img src={AngularJS} alt="AngularJS" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/stenciljs.png" alt="StencilJS" width="200px" />
+                <img src={stenciljs} alt="StencilJS" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/angular-3.svg" alt="Angular" width="200px" />
+                <img src={angular} alt="Angular" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/vuejs.png" alt="VueJS" width="200px" />
+                <img src={vuejs} alt="VueJS" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img
-                  src="./assets/img/ionic-capacitor.png"
-                  alt="Ionic Capacitor"
-                  width="200px"
-                />
+                <img src={Capacitor} alt="Ionic Capacitor" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/cordova.png" alt="Cordova" width="200px" />
+                <img src={Cordova} alt="Cordova" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/electron.png" alt="Electron" width="300px" />
+                <img src={Electron} alt="Electron" width="300px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/mean.png" alt="MEAN" width="200px" />
+                <img src={MEAN} alt="MEAN" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/nodejs.png" alt="NodeJS" width="200px" />
+                <img src={nodejs} alt="NodeJS" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/nest.png" alt="NestJS" width="200px" />
+                <img src={nest} alt="NestJS" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/laravel.png" alt="Laravel" width="200px" />
+                <img src={Laravel} alt="Laravel" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img
-                  src="./assets/img/codeigniter.png"
-                  alt="CodeIgniter"
-                  width="200px"
-                />
+                <img src={CodeIgniter} alt="CodeIgniter" width="200px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/mongodb.svg" alt="MongoDB" width="250px" />
+                <img src={MongoDB} alt="MongoDB" width="250px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/mysql.png" alt="MySQL" width="250px" />
+                <img src={MySQL} alt="MySQL" width="250px" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="title text-center">
-                <img src="./assets/img/mariadb.png" alt="MariaDB" width="200px" />
+                <img src={MariaDB} alt="MariaDB" width="200px" />
               </div>
             </div>
           </div>

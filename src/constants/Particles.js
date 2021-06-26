@@ -19,11 +19,6 @@ export const ParticlesJS_Params = {
       polygon: {
         nb_sides: 5,
       },
-      image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100,
-      },
     },
     opacity: {
       value: 0.5,
@@ -36,11 +31,11 @@ export const ParticlesJS_Params = {
       },
     },
     size: {
-      value: 3,
+      value: 2,
       random: true,
       anim: {
         enable: false,
-        speed: 40,
+        speed: 10,
         size_min: 0.1,
         sync: false,
       },
@@ -54,7 +49,7 @@ export const ParticlesJS_Params = {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 4,
       direction: "none",
       random: false,
       straight: false,

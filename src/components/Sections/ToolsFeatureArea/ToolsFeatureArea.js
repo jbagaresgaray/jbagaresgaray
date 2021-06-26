@@ -1,5 +1,15 @@
 import React from "react";
 
+import vscode from "../../../assets/img/vscode.png";
+import sublimetext from "../../../assets/img/sublimetext.png";
+import visualstudio2 from "../../../assets/img/visualstudio2.png";
+import androidstudio from "../../../assets/img/androidstudio.png";
+import XCode from "../../../assets/img/xcode.png";
+import Photoshop from "../../../assets/img/photoshop.png";
+import AdobeXD from "../../../assets/img/adobe-xd.svg";
+import Sketch from "../../../assets/img/sketch.png";
+import Invision from "../../../assets/img/invision.svg";
+
 export default function ToolsFeatureArea() {
   return (
     <section className="feature-area pt-100" id="tools">
@@ -15,7 +25,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/vscode.png" alt="" width="100px" />
+                <img src={vscode} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Visual Studio Code</a>
@@ -25,7 +35,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/sublimetext.png" alt="" width="100px" />
+                <img src={sublimetext} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Sublime Text</a>
@@ -35,7 +45,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/visualstudio2.png" alt="" width="100px" />
+                <img src={visualstudio2} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Visual Studio</a>
@@ -45,7 +55,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/androidstudio.png" alt="" width="100px" />
+                <img src={androidstudio} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Android Studio</a>
@@ -55,7 +65,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/xcode.png" alt="" width="100px" />
+                <img src={XCode} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">XCode</a>
@@ -65,7 +75,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/photoshop.png" alt="" width="100px" />
+                <img src={Photoshop} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Photoshop</a>
@@ -75,7 +85,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/adobe-xd.svg" alt="" width="100px" />
+                <img src={AdobeXD} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Adobe XD</a>
@@ -85,7 +95,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/sketch.png" alt="" width="125px" />
+                <img src={Sketch} alt="" width="125px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Sketch</a>
@@ -95,7 +105,7 @@ export default function ToolsFeatureArea() {
           <div className="col-lg-4 col-md-6 ">
             <div className="single-feature mb-30">
               <div className="icon text-center">
-                <img src="./assets/img/invision.svg" alt="" width="100px" />
+                <img src={Invision} alt="" width="100px" />
               </div>
               <h4 className="text-center">
                 <a href="#">Invision</a>

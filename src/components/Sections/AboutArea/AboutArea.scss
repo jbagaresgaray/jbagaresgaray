@@ -1,0 +1,43 @@
+.about-area {
+  background-color: #f9f9ff;
+
+  .myself-wrap {
+    background-color: #fff;
+    display: inline-block;
+
+    @media (max-width: 800px) {
+      margin-top: 30px;
+      display: block;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .desc {
+      padding: 35px;
+      text-align: center;
+
+      p {
+        margin-bottom: 5px;
+      }
+
+      .lnr {
+        font-size: 20px;
+      }
+
+      .talk-btn {
+        border: 1px solid transparent;
+        color: #fff;
+        padding: 12px 70px;
+        display: inline-block;
+        border-radius: 25px;
+        font-weight: 400;
+
+        &:hover {
+          background: transparent;
+          border: 1px solid #000;
+          color: #000;
+        }
+      }
+    }
+  }
+}

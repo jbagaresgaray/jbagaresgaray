@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700&display=swap');
+
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.min.css";
 
+@import "./styles/main.scss";
 @import "./styles/skillbar.scss";
 
 ::-moz-selection {
@@ -88,6 +91,13 @@ a:hover {
   outline: 0;
 }
 
+#tsparticles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
 .is-sticky .default-header {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -108,7 +118,6 @@ a:hover {
 .generic-banner {
   background-image: -moz-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
   background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-  background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
 }
 
 .p1-gradient-color,
@@ -117,7 +126,6 @@ a:hover {
 .single-footer-widget .bb-btn {
   background: -moz-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
   background: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-  background: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

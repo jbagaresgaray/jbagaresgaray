@@ -1,4 +1,6 @@
 import React from "react";
+import about from "../../../assets/img/about.jpg";
+import "./AboutArea.scss";
 
 export default function AboutArea() {
   return (
@@ -106,7 +108,7 @@ export default function AboutArea() {
           </div>
           <div className="col-lg-6 about-right justify-content-end d-flex">
             <div className="myself-wrap">
-              <img className="img-fluid" src="./assets/img/about.jpg" alt="" />
+              <img className="img-fluid" src={about} alt="" />
               <div className="desc">
                 <h4>Philip Cesar Garay</h4>
                 <p className="pb-10">Full Stack Web and Mobile App Developer</p>
