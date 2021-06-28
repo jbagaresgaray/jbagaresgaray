@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 import tms from "../../../assets/projects/img/tms.png";
@@ -17,7 +18,11 @@ export default function ProjectArea() {
           <div className="col-lg-6 project-left">
             <div className="single-project">
               <h4 className="pt-30 pb-30">
-                <a href="http://tms.j3solutions.com.ph/login" target="_blank">
+                <a
+                  href="http://tms.j3solutions.com.ph/login"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   J3 TMS - Training Management System
                 </a>
               </h4>
@@ -27,7 +32,11 @@ export default function ProjectArea() {
                 been achieving great heights so far as its popularity and
                 technological.
               </p>
-              <a href="http://tms.j3solutions.com.ph/login" target="_blank">
+              <a
+                href="http://tms.j3solutions.com.ph/login"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="img-fluid pb-30" src={tms} alt="" />
               </a>
             </div>
@@ -38,8 +47,9 @@ export default function ProjectArea() {
                 <a
                   href="https://github.com/jbagaresgaray/Ionic-Weather-App"
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  Weather App{" "}
+                  Weather App
                 </a>
               </h4>
               <p className="pb-30">
@@ -51,6 +61,7 @@ export default function ProjectArea() {
               <a
                 href="https://github.com/jbagaresgaray/Ionic-Weather-App"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="img-fluid pb-30"
@@ -66,8 +77,10 @@ export default function ProjectArea() {
                 <a
                   href="https://github.com/jbagaresgaray/vetzy"
                   target="_blank"
-                ></a>
-                Vetzy - Pet Care Application by
+                  rel="noreferrer"
+                >
+                  Vetzy - Pet Care Application by
+                </a>
                 <a href="https://www.uplabs.com/aravindkumarjeyaraj_ak">
                   Aravind kumar Jeyaraj
                 </a>
@@ -88,7 +101,7 @@ export default function ProjectArea() {
           <div className="col-lg-6 project-left">
             <div className="single-project">
               <h4 className="pt-30 pb-30">
-                <a href="http://kegitapp.com" target="_blank">
+                <a href="http://kegitapp.com" target="_blank" rel="noreferrer">
                   Kegit{" "}
                 </a>
               </h4>
@@ -97,7 +110,7 @@ export default function ProjectArea() {
                 they’re empty, you’ll be instantly notified to get them back
                 faster so you’ll never lose track of your kegs again.
               </p>
-              <a href="http://kegitapp.com" target="_blank">
+              <a href="http://kegitapp.com" target="_blank" rel="noreferrer">
                 <img
                   className="img-fluid pb-30"
                   src="./assets/projects/img/kegit.png"
@@ -141,7 +154,11 @@ export default function ProjectArea() {
           <div className="col-lg-6 project-right">
             <div className="single-project">
               <h4 className="pt-30 pb-30">
-                <a href="https://vbeltcalc.com/" target="_blank">
+                <a
+                  href="https://vbeltcalc.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   vBelt Calc - Belt Calculator
                 </a>
               </h4>
@@ -159,7 +176,11 @@ export default function ProjectArea() {
           <div className="col-lg-6 project-left">
             <div className="single-project">
               <h4 className="pb-30">
-                <a href="https://j3-tms-api.herokuapp.com/" target="_blank">
+                <a
+                  href="https://j3-tms-api.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   J3 EIS - Inspector Mobile App
                 </a>
               </h4>
@@ -182,6 +203,7 @@ export default function ProjectArea() {
                 <a
                   href="https://itunes.apple.com/us/app/narnoo/id1442057445?mt=8"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Narnoo Mobile App
                 </a>
@@ -197,6 +219,7 @@ export default function ProjectArea() {
               <a
                 href="https://itunes.apple.com/us/app/narnoo/id1442057445?mt=8"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="img-fluid pb-30"
@@ -209,7 +232,7 @@ export default function ProjectArea() {
           <div className="col-lg-6 project-left">
             <div className="single-project">
               <h4 className="pb-30">
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" rel="noreferrer">
                   Narnoo Desktop (Admin & Client)
                 </a>
               </h4>
@@ -234,6 +257,7 @@ export default function ProjectArea() {
                 <a
                   href="https://apps.apple.com/nz/app/stars-of-aroha/id1168982009"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Stars Of Aroha
                 </a>
@@ -247,6 +271,7 @@ export default function ProjectArea() {
               <a
                 href="https://apps.apple.com/nz/app/stars-of-aroha/id1168982009"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="img-fluid pb-30"
@@ -259,7 +284,7 @@ export default function ProjectArea() {
           <div className="col-lg-6 project-left">
             <div className="single-project">
               <h4 className="pb-30">
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" rel="noreferrer">
                   #Ellerslie
                 </a>
               </h4>
@@ -288,6 +313,7 @@ export default function ProjectArea() {
                 <a
                   href="https://itunes.apple.com/mk/app/rosmini/id804166760?mt=8"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rosmini
                 </a>
@@ -305,6 +331,7 @@ export default function ProjectArea() {
               <a
                 href="https://itunes.apple.com/mk/app/rosmini/id804166760?mt=8"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="img-fluid pb-30"
@@ -320,6 +347,7 @@ export default function ProjectArea() {
                 <a
                   href="https://itunes.apple.com/mk/app/stamp/id1080172237?mt=8"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   STAMP
                 </a>
@@ -337,6 +365,7 @@ export default function ProjectArea() {
               <a
                 href="https://itunes.apple.com/mk/app/stamp/id1080172237?mt=8"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="img-fluid pb-30"
@@ -370,6 +399,7 @@ export default function ProjectArea() {
                 <a
                   href="https://github.com/jbagaresgaray/ionic-flappybird"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Floppy Bird
                 </a>

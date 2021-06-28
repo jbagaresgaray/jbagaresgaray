@@ -3,7 +3,7 @@ import "./App.scss";
 import React from "react";
 import {
   BrowserRouter as Router,
-  HashRouter,
+  // HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -15,6 +15,9 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/jbagaresgaray">
           <Home />
         </Route>
         <Route path="/projects">
