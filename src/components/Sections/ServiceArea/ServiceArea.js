@@ -1,5 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import "./ServiceArea.scss";
+
+import MobileSVG from "../../../assets/svg/undraw_Mobile_application_mr4r.svg";
+import WebSVG from "../../../assets/svg/undraw_static_website_0107.svg";
+import APISVG from "../../../assets/svg/undraw_programming_2svr.svg";
 
 export default function ServiceArea() {
   return (
@@ -14,9 +19,9 @@ export default function ServiceArea() {
           </div>
         </div>
         <div className="row">
-          <div className="single-service col-lg-6 col-md-6 mb-30">
+          <div className="single-service col-lg-4 col-md-4 mb-30">
             <div className="icon">
-              <img src="img/p1.png" alt="" />
+              <img src={WebSVG} alt="" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
@@ -32,9 +37,9 @@ export default function ServiceArea() {
               </p>
             </div>
           </div>
-          <div className="single-service col-lg-6 col-md-6 mb-30">
+          <div className="single-service col-lg-4 col-md-4 mb-30">
             <div className="icon">
-              <img src="img/p3.png" alt="" />
+              <img src={MobileSVG} alt="" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
@@ -50,9 +55,9 @@ export default function ServiceArea() {
               </p>
             </div>
           </div>
-          <div className="single-service col-lg-6 col-md-6">
+          <div className="single-service col-lg-4 col-md-4">
             <div className="icon">
-              <img src="img/p4.png" alt="" />
+              <img src={APISVG} alt="" />
             </div>
             <div className="dec">
               <h4 className="mt-30">
@@ -66,22 +71,6 @@ export default function ServiceArea() {
                 seamless integration with other parts of your system by strictly
                 following REST standards and providing interactive online
                 documentation based on Swagger.
-              </p>
-            </div>
-          </div>
-          <div className="single-service col-lg-6 col-md-6">
-            <div className="icon">
-              <img src="img/p5.png" alt="" />
-            </div>
-            <div className="dec">
-              <h4 className="mt-30">
-                <a href="#">App Development Consultancy</a>
-              </h4>
-              <p className="mt-20">
-                Serves you with end-to-end software consulting and development
-                solutions. Help you plan, conceive, incorporate, build, augment
-                and take care of your software and offering you absolute
-                benefits from our consulting.
               </p>
             </div>
           </div>
