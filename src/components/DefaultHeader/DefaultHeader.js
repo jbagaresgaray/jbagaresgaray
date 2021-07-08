@@ -7,7 +7,7 @@ export default function DefaultHeader() {
       <header className="default-header">
         <nav className="navbar navbar-expand-lg  navbar-light">
           <div className="container">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               PHILIP CESAR GARAY
             </a>
             <button

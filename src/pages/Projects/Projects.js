@@ -10,8 +10,8 @@ function Projects() {
         <header class="default-header">
           <nav class="navbar navbar-expand-lg  navbar-light">
             <div class="container">
-              <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" alt="" />
+              <a className="navbar-brand" href="/">
+                PHILIP CESAR GARAY
               </a>
               <button
                 class="navbar-toggler"

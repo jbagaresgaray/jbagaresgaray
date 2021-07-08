@@ -2,6 +2,18 @@
 import React from "react";
 
 import tms from "../../../assets/projects/img/tms.png";
+import weather1 from "../../../assets/projects/img/weather1.png";
+import kegit from "../../../assets/projects/img/kegit.png";
+import voyaga from "../../../assets/projects/img/voyaga.png";
+import crypto from "../../../assets/projects/img/crypto.png";
+import beltcalc from "../../../assets/projects/img/beltcalc.png";
+import eis from "../../../assets/projects/img/eis.png";
+import narnoo_mobile from "../../../assets/projects/img/narnoo_mobile.png";
+import narnoo_desktop from "../../../assets/projects/img/narnoo_desktop.png";
+import stars_of_aroha from "../../../assets/projects/img/stars_of_aroha.png";
+import ellerslie from "../../../assets/projects/img/ellerslie.png";
+import rosmini from "../../../assets/projects/img/rosmini.png";
+import stamp from "../../../assets/projects/img/stamp.png";
 
 export default function ProjectArea() {
   return (
@@ -63,11 +75,7 @@ export default function ProjectArea() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/weather1.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={weather1} alt="" />
               </a>
             </div>
           </div>
@@ -111,11 +119,7 @@ export default function ProjectArea() {
                 faster so you’ll never lose track of your kegs again.
               </p>
               <a href="http://kegitapp.com" target="_blank" rel="noreferrer">
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/kegit.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={kegit} alt="" />
               </a>
             </div>
           </div>
@@ -128,11 +132,7 @@ export default function ProjectArea() {
                 Created using React Native, Nativebase, ReactNavigation, React
                 Native Elements
               </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/voyaga.png"
-                alt=""
-              />
+              <img className="img-fluid pb-30" src={voyaga} alt="" />
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -144,11 +144,7 @@ export default function ProjectArea() {
                 Cryptocurrency App Watcher base on https://coincap.io/ for
                 Android and iOS
               </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/crypto.png"
-                alt=""
-              />
+              <img className="img-fluid pb-30" src={crypto} alt="" />
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -166,11 +162,7 @@ export default function ProjectArea() {
                 A mobile calculator designed to closely estimate the required
                 V-belt length, for two and three pulley applications.
               </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/beltcalc.png"
-                alt=""
-              />
+              <img className="img-fluid pb-30" src={beltcalc} alt="" />
             </div>
           </div>
           <div className="col-lg-6 project-left">
@@ -190,11 +182,7 @@ export default function ProjectArea() {
                 similique nemo eaque corrupti minima ipsam est aut,
                 reprehenderit laborum ea id facilis ex officia quidem!
               </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/eis.png"
-                alt=""
-              />
+              <img className="img-fluid pb-30" src={eis} alt="" />
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -221,11 +209,7 @@ export default function ProjectArea() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/narnoo_mobile.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={narnoo_mobile} alt="" />
               </a>
             </div>
           </div>
@@ -244,11 +228,7 @@ export default function ProjectArea() {
                 account. Business’s can assign administrator, staff, trade and
                 media users access to their business content.
               </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/narnoo_desktop.png"
-                alt=""
-              />
+              <img className="img-fluid pb-30" src={narnoo_desktop} alt="" />
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -273,11 +253,7 @@ export default function ProjectArea() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/stars_of_aroha.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={stars_of_aroha} alt="" />
               </a>
             </div>
           </div>
@@ -300,11 +276,7 @@ export default function ProjectArea() {
                 specials. Ellerslie Events – Don’t miss a local event again with
                 a complete list of all events taking place throughout Ellerslie.
               </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/ellerslie.png"
-                alt=""
-              />
+              <img className="img-fluid pb-30" src={ellerslie} alt="" />
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -333,11 +305,7 @@ export default function ProjectArea() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/rosmini.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={rosmini} alt="" />
               </a>
             </div>
           </div>
@@ -367,11 +335,7 @@ export default function ProjectArea() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  className="img-fluid pb-30"
-                  src="./assets/projects/img/stamp.png"
-                  alt=""
-                />
+                <img className="img-fluid pb-30" src={stamp} alt="" />
               </a>
             </div>
           </div>
@@ -389,27 +353,6 @@ export default function ProjectArea() {
               <img
                 className="img-fluid pb-30"
                 src="https://cdn.dribbble.com/users/914722/screenshots/3262911/attachments/700971/newsica-detail-view-all.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="col-lg-6 project-left">
-            <div className="single-project">
-              <h4 className="pt-30 pb-30">
-                <a
-                  href="https://github.com/jbagaresgaray/ionic-flappybird"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Floppy Bird
-                </a>
-              </h4>
-              <p className="pb-30">
-                A Flappy Bird Clone using Ionic 4... Just all folks
-              </p>
-              <img
-                className="img-fluid pb-30"
-                src="./assets/projects/img/flappy-bird.jpg"
                 alt=""
               />
             </div>
