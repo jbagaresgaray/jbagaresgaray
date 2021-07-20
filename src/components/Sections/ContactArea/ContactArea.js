@@ -24,19 +24,29 @@ export default function ContactArea() {
     ev.preventDefault();
 
     try {
+      const details = {
+        from: email,
+        email: sendTo,
+        subject: emailSubject,
+        message: emailBody,
+      };
+      let formBody = [];
+      for (const property in details) {
+        const encodedKey = encodeURIComponent(property);
+        const encodedValue = encodeURIComponent(details[property]);
+        formBody.push(encodedKey + "=" + encodedValue);
+      }
+      formBody = formBody.join("&");
+
       const data = await fetch(
         "https://shoppy-123456789.herokuapp.com/app/1/sendMail",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",
+            Accept: "application/x-www-form-urlencoded",
           },
-          body: JSON.stringify({
-            from: email,
-            email: sendTo,
-            subject: emailSubject,
-            message: emailBody,
-          }),
+          body: formBody,
         }
       ).then((response) => response.json());
 
