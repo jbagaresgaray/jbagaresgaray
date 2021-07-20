@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import LogoCircle from "../../../components/LogoCircle/LogoCircle";
 
 import tms from "../../../assets/projects/img/tms.png";
 import weather1 from "../../../assets/projects/img/weather1.png";
@@ -51,6 +52,13 @@ export default function ProjectArea() {
               >
                 <img className="img-fluid pb-30" src={tms} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="bootstrap" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="node" />
+                <LogoCircle stack="mysql" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -77,6 +85,13 @@ export default function ProjectArea() {
               >
                 <img className="img-fluid pb-30" src={weather1} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="react" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -104,6 +119,12 @@ export default function ProjectArea() {
                 src="https://raw.githubusercontent.com/jbagaresgaray/vetzy/master/screenshot/preview.jpg"
                 alt=""
               />
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-left">
@@ -121,6 +142,12 @@ export default function ProjectArea() {
               <a href="http://kegitapp.com" target="_blank" rel="noreferrer">
                 <img className="img-fluid pb-30" src={kegit} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -133,6 +160,10 @@ export default function ProjectArea() {
                 Native Elements
               </p>
               <img className="img-fluid pb-30" src={voyaga} alt="" />
+              <div class="d-flex">
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="react" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -145,6 +176,12 @@ export default function ProjectArea() {
                 Android and iOS
               </p>
               <img className="img-fluid pb-30" src={crypto} alt="" />
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -163,6 +200,13 @@ export default function ProjectArea() {
                 V-belt length, for two and three pulley applications.
               </p>
               <img className="img-fluid pb-30" src={beltcalc} alt="" />
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="react" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-left">
@@ -183,6 +227,12 @@ export default function ProjectArea() {
                 reprehenderit laborum ea id facilis ex officia quidem!
               </p>
               <img className="img-fluid pb-30" src={eis} alt="" />
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -211,6 +261,12 @@ export default function ProjectArea() {
               >
                 <img className="img-fluid pb-30" src={narnoo_mobile} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-left">
@@ -229,6 +285,12 @@ export default function ProjectArea() {
                 media users access to their business content.
               </p>
               <img className="img-fluid pb-30" src={narnoo_desktop} alt="" />
+              <div class="d-flex">
+                <LogoCircle stack="bootstrap" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="electron" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -255,6 +317,12 @@ export default function ProjectArea() {
               >
                 <img className="img-fluid pb-30" src={stars_of_aroha} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-left">
@@ -277,6 +345,12 @@ export default function ProjectArea() {
                 a complete list of all events taking place throughout Ellerslie.
               </p>
               <img className="img-fluid pb-30" src={ellerslie} alt="" />
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -307,6 +381,12 @@ export default function ProjectArea() {
               >
                 <img className="img-fluid pb-30" src={rosmini} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-left">
@@ -337,6 +417,12 @@ export default function ProjectArea() {
               >
                 <img className="img-fluid pb-30" src={stamp} alt="" />
               </a>
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6 project-right">
@@ -355,6 +441,12 @@ export default function ProjectArea() {
                 src="https://cdn.dribbble.com/users/914722/screenshots/3262911/attachments/700971/newsica-detail-view-all.png"
                 alt=""
               />
+              <div class="d-flex">
+                <LogoCircle stack="ionic" />
+                <LogoCircle stack="angular" />
+                <LogoCircle stack="javascript" />
+                <LogoCircle stack="capacitor" />
+              </div>
             </div>
           </div>
         </div>

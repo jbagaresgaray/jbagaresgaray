@@ -3,9 +3,10 @@ import "./App.scss";
 import React from "react";
 import {
   BrowserRouter as Router,
-  // HashRouter,
+  HashRouter,
   Switch,
   Route,
+  Redirect,
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
@@ -17,11 +18,11 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/jbagaresgaray">
-          <Home />
-        </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route exact path="/jbagaresgaray">
+          <Redirect to="/" />
         </Route>
       </Switch>
     </Router>
